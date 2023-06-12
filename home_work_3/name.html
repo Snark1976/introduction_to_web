@@ -7,9 +7,9 @@
 </head>
 <body>
     <script lang="JavaScript">
-        let name = prompt("Как ваше имя?", "Имя");
-        let message = `Приятно познакомиться, ${name}`;
-        alert(message);
+        let userName = prompt("Как ваше имя?", "Имя");
+        let showMessage = (name) => alert(`Приятно познакомиться, ${name}`);
+        showMessage(userName);
     </script>
 </body>
 </html>
